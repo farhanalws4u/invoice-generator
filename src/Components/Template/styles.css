@@ -1,0 +1,15 @@
+.parentContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 794px; /*according to a4 page*/
+  min-height: 1123px;
+  height: fit-content;
+  min-width: 794px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
