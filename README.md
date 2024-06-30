@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+#### Getting Started with Invoice Generator using Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Invoice Generator! This guide will help you set up, run, and build your invoicing application using Vite, a fast frontend build tool.
 
-Currently, two official plugins are available:
+#### 1\. Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before you begin, ensure you have Node.js and npm installed on your machine. You can download them from [Node.js website](https://nodejs.org/).
 
-## Expanding the ESLint configuration
+To install Vite globally, run:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
 
-- Configure the top-level `parserOptions` property like this:
+Copy code
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+`npm install -g vite`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Or, to install it locally within your "Invoice Generator" project:
+
+bash
+
+Copy code
+
+`npm install vite --save-dev`
+
+#### 2\. Project Setup
+
+Clone your "Invoice Generator" project repository from Git or initialize a new project:
+
+bash
+
+Copy code
+
+`git clone https://github.com/farhanalws4u/invoice-generator
+
+cd invoice-generator directory
+
+#### 3\. Running the Development Server
+
+To start the development server for "Invoice Generator", run:
+
+run command
+`npm install`
+
+then run command
+`npm run dev`
+
+Open your browser and navigate to `http://localhost:3000` to view your invoicing application.
+
+
+#### 4\. Access the Live version here
+
+
+
+
+
+
+
