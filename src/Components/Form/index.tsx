@@ -249,7 +249,7 @@ const InvoiceForm: React.FC = () => {
 
   useEffect(() => {
     if (isCalculated) {
-      console.log("FORM DATA AFTER==d==", invoiceData);
+      console.log("FORM DATA AFTER==d=d=", invoiceData);
       setInvoiceDataContext(invoiceData);
       // @ts-ignore
       navigate("/template");
