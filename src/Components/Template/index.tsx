@@ -1,4 +1,4 @@
-import { useContext, useRef } from "react";
+import { useContext } from "react";
 import "./styles.css";
 import { invoiceContext } from "../../context/invoiceData";
 import { usePDF } from "react-to-pdf";

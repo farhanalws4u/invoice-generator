@@ -37,7 +37,7 @@ export function numberToWords(number: number) {
   ];
   const thousands = ["", "Thousand", "Million", "Billion"];
 
-  function convertThreeDigitNumber(num) {
+  function convertThreeDigitNumber(num: any) {
     let words = "";
     let hundreds = Math.floor(num / 100);
     let remainder = num % 100;

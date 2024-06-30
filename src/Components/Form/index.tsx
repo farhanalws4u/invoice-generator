@@ -198,7 +198,7 @@ const InvoiceForm: React.FC = () => {
   const calculateItems = () => {
     let sumTotalAmount = 0;
     let sumTaxAmount = 0;
-    const updatedItems = invoiceData.items.map((item, index) => {
+    const updatedItems = invoiceData.items.map((item) => {
       let netAmount;
       let totalAmount;
       let taxAmount;
@@ -546,6 +546,7 @@ const InvoiceForm: React.FC = () => {
               </label>
               {signaturePreviewURL && (
                 <div className="preview-container">
+                  {/* @ts-ignore  */}
                   <img src={signaturePreviewURL} alt="Signature Preview" />
                 </div>
               )}
@@ -562,6 +563,7 @@ const InvoiceForm: React.FC = () => {
               </label>
               {logoPreviewUrl && (
                 <div className="preview-container">
+                  {/* @ts-ignore  */}
                   <img src={logoPreviewUrl} alt="logo Preview" />
                 </div>
               )}
